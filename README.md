@@ -46,11 +46,12 @@ The project utilizes a dataset containing historical traffic data for Mumbai, in
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Soham-Niungare/Smart-Traffic-Prediction.git
+   git clone https://github.com/nishadbhujbal/Next-Gen-Traffic-Analysis.git
    ```
 2. Navigate to the project directory:
+
    ```bash
-   cd Smart-Traffic-Prediction
+   cd Next-Gen-Traffic-Analysis
 
    ```
 
@@ -85,6 +86,7 @@ Each part of the application needs to be run in a separate terminal.
    ```bash
    python main.py
    The server should now be running on a specific port. Check the terminal output for the exact port.
+   ```
 
 ### Client Setup
 
@@ -100,6 +102,7 @@ Each part of the application needs to be run in a separate terminal.
    ```bash
    npm run dev
    After running this command, the frontend will be accessible at a specific port. The exact port should be displayed in the terminal.
+   ```
 
 ## Future Improvements:
 
