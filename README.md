@@ -7,6 +7,7 @@ This project leverages a multimodal machine learning framework to predict traffi
 ## Technical Stack:
 
 ### Frontend:
+<<<<<<< HEAD
 
 - **React**: A JavaScript library for building user interfaces.
 
@@ -40,6 +41,36 @@ Long Short-Term Memory neural network for capturing temporal dependencies in tim
 ## Dataset:
 
 The project utilizes a dataset containing historical traffic data for Mumbai, including factors like time of day, weather conditions, and special events.
+=======
+- **React**: A JavaScript library for building user interfaces.
+
+### Backend:
+- **Flask**: A lightweight Python web framework.
+
+### Libraries:
+- **Flask-CORS**: Enables Cross-Origin Resource Sharing (CORS) for Flask applications.
+- **Axios**: A promise-based HTTP client for making requests to the Flask backend.
+- **NumPy**: Fundamental package for scientific computing with Python.
+- **Pandas**: Data analysis and manipulation tool.
+- **Keras**: High-level neural networks API, running on top of TensorFlow.
+- **Matplotlib**: Plotting library for creating visualizations.
+- **Scikit-learn**: Machine learning library for model training and evaluation.
+- **TensorFlow**: Open-source machine learning framework.
+
+## Model Architecture:
+
+The multimodal framework combines the strengths of XGBoost and LSTM models to improve prediction accuracy.
+
+### XGBoost: 
+A gradient boosting algorithm for handling structured data.
+
+### LSTM: 
+Long Short-Term Memory neural network for capturing temporal dependencies in time series data.
+
+## Dataset:
+The project utilizes a dataset containing historical traffic data for Mumbai, including factors like time of day, weather conditions, and special events.
+
+>>>>>>> origin/main
 
 ## Installation
 
@@ -81,9 +112,16 @@ Each part of the application needs to be run in a separate terminal.
    pip install -r requirements.txt
    ```
 5. Run the server:
+<<<<<<< HEAD
    ```bash
    python main.py
    The server should now be running on a specific port. Check the terminal output for the exact port.
+=======
+    ```bash
+    python main.py
+The server should now be running on a specific port. Check the terminal output for the exact port.
+
+>>>>>>> origin/main
 
 ### Client Setup
 
@@ -98,7 +136,12 @@ Each part of the application needs to be run in a separate terminal.
 3. Run the client:
    ```bash
    npm run dev
+<<<<<<< HEAD
    After running this command, the frontend will be accessible at a specific port. The exact port should be displayed in the terminal.
+=======
+After running this command, the frontend will be accessible at a specific port. The exact port should be displayed in the terminal.
+
+>>>>>>> origin/main
 
 ## Future Improvements:
 
