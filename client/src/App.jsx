@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const fetchRoadNames = async () => {
       const response = await axios.get(
-        "https://next-gen-traffic-prediction.onrender.com//api/road_names"
+        "https://next-gen-traffic-prediction.onrender.com/api/road_names"
       );
       setRoadNames(response.data.road_names);
     };
