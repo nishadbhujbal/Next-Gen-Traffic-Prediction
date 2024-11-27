@@ -12,14 +12,14 @@ function App() {
 
   useEffect(() => {
     const fetchRoadNames = async () => {
-      const response = await axios.get("http://127.0.0.1:8081/api/road_names");
+      const response = await axios.get(
+        "https://next-gen-traffic-prediction.onrender.com//api/road_names"
+      );
       setRoadNames(response.data.road_names);
     };
 
     fetchRoadNames();
   }, []);
-
-
 
   return (
     <>
