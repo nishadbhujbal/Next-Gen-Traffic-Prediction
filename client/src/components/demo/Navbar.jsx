@@ -1,7 +1,7 @@
 export function Navbar() {
   return (
     <>
-      <header className="bg-white border-gray-800 border-b-4 h-20">
+      <header className="hidden md:block bg-white border-gray-800 border-b-4 h-20">
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-20 items-center justify-between">
             <div className="md:flex md:items-center md:gap-12">

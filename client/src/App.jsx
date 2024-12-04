@@ -24,9 +24,9 @@ function App() {
   return (
     <>
       <div className="w-full  flex flex-col gap-4 bg-white">
-        <div className="grid grid-cols-1 gap-2 lg:grid-cols-[auto_1fr] lg:gap-4">
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-[auto_1fr] lg:gap-4">
           <SideBar></SideBar>
-          <div className="flex flex-col mr-4">
+          <div className="flex flex-col justify-center md:mr-2">
             <Navbar></Navbar>
             <HeroSection></HeroSection>
             <InputDemo roadNames={roadNames}></InputDemo>

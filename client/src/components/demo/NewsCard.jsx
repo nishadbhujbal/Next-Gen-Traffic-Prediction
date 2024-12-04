@@ -1,7 +1,7 @@
 export function NewsCard({ article }) {
   return (
     <>
-      <div className="border border-gray-400 rounded-b-3xl hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+      <div className="border border-gray-400 lg:rounded-b-3xl hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
         <a
           href={article.url}
           target="_blank"

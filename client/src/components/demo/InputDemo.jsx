@@ -94,8 +94,8 @@ export function InputDemo(props) {
           </span>
         </div>
 
-        <div className="flex flex-wrap justify-evenly items-center sm:flex-row">
-          <div className="flex w-[80%] sm:w-[20%]">
+        <div className="gap-6 flex flex-wrap flex-row justify-evenly items-center md:gap-4">
+          <div className="flex">
             <Input
               type="text"
               placeholder={
@@ -109,7 +109,7 @@ export function InputDemo(props) {
             />
           </div>
           <CalendarDemo onDateChange={handleDateChange} />
-          <div className="flex w-[80%] sm:w-[20%]">
+          <div className="flex">
             <Input
               type="text"
               placeholder={selectedWeather ? selectedWeather : "Select Weather"}
@@ -118,7 +118,7 @@ export function InputDemo(props) {
             <DropdownMenuWeather onWeatherChange={handleWeatherChange} />
           </div>
         </div>
-        <div className="flex flex-row gap-4 justify-center">
+        <div className="flex flex-col md:flex-row gap-4 items-center md:justify-center">
           <Button
             className="w-[200px] text-lg font-semibold rounded-2xl px-4 py-2 bg-white hover:bg-gray-800 text-gray-800 hover:text-white border border-gray-200 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]"
             onClick={handleSubmit}
