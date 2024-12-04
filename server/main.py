@@ -12,6 +12,10 @@ xgb_model = joblib.load('xgb_traffic_model.joblib')
 le_road = joblib.load('le_road.joblib')
 le_weather = joblib.load('le_weather.joblib')
 
+@app.route('/')
+def hello():
+    return "Hi My name is Nishad"
+
 # Endpoint to get road names
 @app.route("/api/road_names", methods=['GET'])
 def road_names():
