@@ -37,13 +37,16 @@ export function InputDemo(props) {
       weather_condition: selectedWeather,
     };
 
-    fetch("http://localhost:8081/api/predict_traffic", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
+    fetch(
+      "https://next-gen-traffic-prediction.onrender.com/api/predict_traffic",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }
+    )
       .then((response) => response.json())
       .then((result) => {
         if (result.error) {
