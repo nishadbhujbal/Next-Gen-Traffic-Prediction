@@ -14,7 +14,7 @@ le_weather = joblib.load('le_weather.joblib')
 
 @app.route('/')
 def hello():
-    return "Hi My name is Nishad"
+    return "Backend hosted"
 
 # Endpoint to get road names
 @app.route("/api/road_names", methods=['GET'])
